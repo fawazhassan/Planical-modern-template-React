@@ -1,0 +1,206 @@
+.engagements-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  background: #76c59c;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.engagements-container1 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  min-height: 800px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.engagements-container2 {
+  flex: 0 0 auto;
+  width: 70vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.engagements-text {
+  align-self: flex-start;
+  text-align: center;
+  font-family: Poppins;
+}
+.engagements-activity-creation-card {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-threeunits);
+  min-height: 248px;
+  align-items: center;
+  border-radius: 20px;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #292929;
+}
+.engagements-sign-in-title {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.engagements-header {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 36px;
+}
+.engagements-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.engagements-create-first-engagement {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.engagements-button {
+  width: 80%;
+  height: 80%;
+  padding: var(--dl-space-space-unit);
+  font-size: xx-large;
+  text-align: center;
+  padding-bottom: 16px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-button);
+}
+.engagements-activity-list-card {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-threeunits);
+  min-height: 248px;
+  align-items: center;
+  padding-left: 48px;
+  border-radius: 20px;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #292929;
+}
+.engagements-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-self: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.engagements-sign-in-title1 {
+  flex: 0 0 auto;
+  width: 299px;
+  height: 100px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.engagements-header1 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 36px;
+}
+.engagements-add-engagement {
+  width: 431px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.engagements-button1 {
+  width: 80%;
+  height: 80%;
+  padding: var(--dl-space-space-unit);
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  justify-content: center;
+  background-color: var(--dl-color-primary-button);
+}
+@media(max-width: 1200px) {
+  .engagements-sign-in-title {
+    align-self: center;
+    justify-content: center;
+  }
+  .engagements-button {
+    width: 80%;
+    height: 60%;
+    padding: 0px;
+  }
+  .engagements-sign-in-title1 {
+    align-self: center;
+    justify-content: center;
+  }
+  .engagements-header1 {
+    align-self: center;
+  }
+  .engagements-button1 {
+    height: 60%;
+    padding: 0px;
+  }
+}
+@media(max-width: 991px) {
+  .engagements-container1 {
+    justify-content: center;
+  }
+  .engagements-container2 {
+    width: 70%;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .engagements-activity-creation-card {
+    width: 100%;
+    align-self: center;
+  }
+  .engagements-activity-list-card {
+    width: 100%;
+    align-self: center;
+  }
+  .engagements-container3 {
+    flex-direction: column;
+  }
+  .engagements-add-engagement {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .engagements-header {
+    text-align: center;
+  }
+}

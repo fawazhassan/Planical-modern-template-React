@@ -11,11 +11,8 @@ const SignInSignUp = (props) => {
   return (
     <div className="sign-in-sign-up-container">
       <Helmet>
-        <title>SignInSignUp - Planical modern template</title>
-        <meta
-          property="og:title"
-          content="SignInSignUp - Planical modern template"
-        />
+        <title>SignInSignUp - Tinada V1</title>
+        <meta property="og:title" content="SignInSignUp - Tinada V1" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name1"></Navbar>
       <div className="sign-in-sign-up-div">

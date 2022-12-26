@@ -11,21 +11,18 @@ const Engagements = (props) => {
   return (
     <div className="engagements-container">
       <Helmet>
-        <title>Engagements - Planical modern template</title>
-        <meta
-          property="og:title"
-          content="Engagements - Planical modern template"
-        />
+        <title>Engagements - Tinada V1</title>
+        <meta property="og:title" content="Engagements - Tinada V1" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name2"></Navbar>
       <div className="engagements-container1">
         <Sidebar></Sidebar>
         <div className="engagements-container2">
-          <h1 className="engagements-text">Engagements</h1>
+          <h1 className="engagements-text">Chats</h1>
           <section className="engagements-activity-creation-card">
             <div className="engagements-sign-in-title">
               <h1 className="engagements-header">
-                Create your first engagement below
+                Chats will display when you have created an engagement
               </h1>
             </div>
             <form className="engagements-form">
@@ -37,12 +34,10 @@ const Engagements = (props) => {
           <section className="engagements-activity-list-card">
             <div className="engagements-container3">
               <div className="engagements-sign-in-title1">
-                <h1 className="engagements-header1">Engagements</h1>
+                <h1 className="engagements-header1">Chats</h1>
               </div>
               <div className="engagements-add-engagement">
-                <button className="engagements-button1 Content button">
-                  +
-                </button>
+                <h1 className="engagements-text1">Text</h1>
               </div>
             </div>
           </section>

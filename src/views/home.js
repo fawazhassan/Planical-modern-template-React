@@ -17,8 +17,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Planical modern template</title>
-        <meta property="og:title" content="Planical modern template" />
+        <title>Tinada V1</title>
+        <meta property="og:title" content="Tinada V1" />
       </Helmet>
       <section className="home-section">
         <Navbar rootClassName="navbar-root-class-name"></Navbar>

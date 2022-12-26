@@ -11,11 +11,8 @@ const Profile = (props) => {
   return (
     <div className="profile-container">
       <Helmet>
-        <title>Profile - Planical modern template</title>
-        <meta
-          property="og:title"
-          content="Profile - Planical modern template"
-        />
+        <title>Profile - Tinada V1</title>
+        <meta property="og:title" content="Profile - Tinada V1" />
       </Helmet>
       <Navbar rootClassName="navbar-root-class-name3"></Navbar>
       <div className="profile-container1">

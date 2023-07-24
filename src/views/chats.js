@@ -9,41 +9,41 @@ import './chats.css'
 
 const Chats = (props) => {
   return (
-    <div className="chats-container">
+    <div className="engagements-container">
       <Helmet>
         <title>Chats - Tinada V1</title>
-        <meta property="og:title" content="Chats - Tinada V1" />
+        <meta property="og:title" content="Engagements - Tinada V1" />
       </Helmet>
-      <Navbar rootClassName="navbar-root-class-name4"></Navbar>
-      <div className="chats-container1">
+      <Navbar rootClassName="navbar-root-class-name2"></Navbar>
+      <div className="engagements-container1">
         <Sidebar></Sidebar>
-        <div className="chats-container2">
-          <h1 className="chats-text">Engagements</h1>
-          <section className="chats-activity-creation-card">
-            <div className="chats-sign-in-title">
-              <h1 className="chats-header">
-                Create your first engagement below
+        <div className="engagements-container2">
+          <h1 className="engagements-text">Chats</h1>
+          <section className="engagements-activity-creation-card">
+            <div className="engagements-sign-in-title">
+              <h1 className="engagements-header">
+                Chats will display when you have created an engagement
               </h1>
             </div>
-            <form className="chats-form">
-              <div className="chats-create-first-engagement">
-                <button className="chats-button Content button">+</button>
+            <form className="engagements-form">
+              <div className="engagements-create-first-engagement">
+                <button className="engagements-button Content button">+</button>
               </div>
             </form>
           </section>
-          <section className="chats-activity-list-card">
-            <div className="chats-container3">
-              <div className="chats-sign-in-title1">
-                <h1 className="chats-header1">Engagements</h1>
+          <section className="engagements-activity-list-card">
+            <div className="engagements-container3">
+              <div className="engagements-sign-in-title1">
+                <h1 className="engagements-header1">Chats</h1>
               </div>
-              <div className="chats-add-engagement">
-                <button className="chats-button1 Content button">+</button>
+              <div className="engagements-add-engagement">
+                <h1 className="engagements-text1">Text</h1>
               </div>
             </div>
           </section>
         </div>
       </div>
-      <Footer rootClassName="footer-root-class-name4"></Footer>
+      <Footer rootClassName="footer-root-class-name2"></Footer>
     </div>
   )
 }

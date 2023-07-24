@@ -1,4 +1,8 @@
 import React from 'react'
+import{db} from '../index'
+
+// Initialize Cloud Firestore and get a reference to the service
+
 
 import { Helmet } from 'react-helmet'
 
@@ -35,7 +39,7 @@ const Profile = (props) => {
               </div>
               <div className="profile-first-name">
                 <div className="profile-first-name-label1">
-                  <h3 className="profile-header1">First Name</h3>
+                  <h3 className="profile-header1" name= "first-name">First Name</h3>
                 </div>
                 <div className="profile-container4">
                   <input

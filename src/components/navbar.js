@@ -9,7 +9,7 @@ const Navbar = (props) => {
   return (
     <nav className={`navbar-navbar ${props.rootClassName} `}>
       <img
-        alt="Planical7012"
+        alt="Tinada"
         src={props.BrandingLogo_src}
         className="navbar-branding-logo"
       />
@@ -48,13 +48,12 @@ const Navbar = (props) => {
           </div>
         </div>
         <div className="navbar-nav-links1">
-          <span className="nav-link">Features</span>
-          <span className="nav-link">Why us</span>
+        <span className="nav-link">About</span>
           <span className="nav-link">Prices</span>
           <span className="nav-link">Contact</span>
         </div>
-        <div className="get-started">
-          <span className="navbar-text1">Get started</span>
+        <div >
+          <span className="button">Login</span>
         </div>
       </div>
       <div className="">
@@ -112,7 +111,7 @@ listenForUrlChangesMobileMenu()
 
 Navbar.defaultProps = {
   image_alt: 'image',
-  image_src1: '/playground_assets/planical7012-ttpb.svg',
+  image_src1: '/playground_assets/tinada-1%20%5B2%5D-200h.png',
   image_src: '/playground_assets/hamburger-200h.png',
   image_alt1: 'image',
   text: 'TINADA',

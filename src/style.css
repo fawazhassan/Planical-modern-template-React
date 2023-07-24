@@ -264,9 +264,7 @@
 }
 
 @media(max-width: 767px) {
-  .nav-link {
-    color: black;
-  }
+
   .accordion-element {
     gap: var(--dl-space-space-oneandhalfunits);
   }

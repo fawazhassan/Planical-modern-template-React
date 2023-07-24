@@ -1,0 +1,29 @@
+.mark-mark {
+  gap: var(--dl-space-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.mark-icon {
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  border-radius: 50%;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--dl-color-primary-button1);
+}
+.mark-icon1 {
+  fill: var(--dl-color-primary-300);
+  width: 12px;
+  height: 12px;
+}
+.mark-label {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 24px;
+}
